@@ -1,2 +1,2 @@
-const sat = require('satsolver'); 
-sat.solve('./filename.cnf');
+const sat = require('./SatSolver.js'); 
+console.log(sat.solve('NomedoArquivo.cnf'));
